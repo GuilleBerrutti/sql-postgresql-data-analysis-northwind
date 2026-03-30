@@ -12,33 +12,26 @@ Este proyecto consiste en un análisis profundo de la base de datos **Northwind*
 ## 📊 Visualización de Resultados
 Aquí se presentan las capturas de los tableros interactivos desarrollados:
 
-### Dashboard de Ventas y Clientes
-![Ventas por Categoría](img/Ventas_por_categoria.png)
-
-### Control de Stock e Inventario
-![Detalle de Inventario](img/Dias_promedio_del_envio.png)
-
-## 🗄️ Consultas SQL Destacadas
-El proyecto incluye scripts para:
-1.  **Análisis de Rentabilidad:** Cálculo de márgenes por producto.
-2.  **Segmentación de Clientes:** Identificación de clientes inactivos (Churn Analysis).
-3.  **Lógica de Semáforo:** Sistema de alertas para stock crítico.
-
-## 📁 Análisis Detallado de Resultados
-
 <details>
   <summary>🔎 Hacer clic para ver Gráficos de Resultados y Conclusiones</summary>
   
   ### Conclusiones del Negocio
   Aquí puedes observar el análisis final de rentabilidad:
   
-  ![Gráfico de Resultados](Results/resultado1.png)
+  ![Gráfico de Resultados](img/Ventas_por_categoria.png)
   
   > **Nota:** Se detectó un incremento del 15% en la retención de clientes tras aplicar la segmentación.
   
-  ![Gráfico de Stock](Results/resultado2.png)
+  ![Gráfico de Stock](img/Dias_promedio_del_envio.png)
   
 </details>
+
+
+## 🗄️ Consultas SQL Destacadas
+El proyecto incluye scripts para:
+1.  **Análisis de Rentabilidad:** Cálculo de márgenes por producto.
+2.  **Segmentación de Clientes:** Identificación de clientes inactivos (Churn Analysis).
+3.  **Lógica de Semáforo:** Sistema de alertas para stock crítico.
 
 ## 📂 Estructura del Repositorio
 * `/Scripts`: Consultas SQL organizadas por módulo.
