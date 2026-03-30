@@ -16,7 +16,7 @@ Aquí se presentan las capturas de los tableros interactivos desarrollados:
 ![Ventas por Categoría](img/Ventas_por_categoria.png)
 
 ### Control de Stock e Inventario
-![Detalle de Inventario](img/detalle.png)
+![Detalle de Inventario](img/Dias_promedio_del_envio.png)
 
 ## 🗄️ Consultas SQL Destacadas
 El proyecto incluye scripts para:
