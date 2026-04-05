@@ -34,7 +34,9 @@ Mapa de calor generado para detectar patrones de compra por día de la semana y 
 
 ### 3. Dashboard Operativo (Power BI)
 Visualización de KPIs críticos como el rendimiento logístico por país y la distribución de ingresos por categoría de producto.
+
 ![Ventas por Categoría](img/Ventas_por_categoria.png)
+
 ![Eficiencia de Envíos](img/Dias_promedio_del_envio.png)
 
 ### 4. Capa de Datos (PostgreSQL)
