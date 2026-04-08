@@ -1,6 +1,8 @@
 # 📊 Proyecto de Análisis End-to-End: Northwind Traders
 
-Este proyecto presenta un ecosistema de datos integral sobre la base de datos **Northwind**. El flujo de trabajo abarca desde la extracción y modelado en **SQL**, pasando por el monitoreo operativo en **Power BI**, hasta el análisis avanzado de estacionalidad y predicción con **Machine Learning** en **Python**.
+Proyecto de análisis sobre la base de datos Northwind (e-commerce ficticio), con el objetivo de identificar oportunidades de mejora en ventas, inventario y cadena de suministro usando SQL avanzado en PostgreSQL.
+
+El flujo de trabajo abarca desde la extracción y modelado en **SQL**, pasando por el monitoreo operativo en **Power BI**, hasta el análisis avanzado de estacionalidad y predicción con **Machine Learning** en **Python**.
 
 ---
 
