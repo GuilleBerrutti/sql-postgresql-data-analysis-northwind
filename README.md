@@ -21,7 +21,7 @@
 ## 🛠️ Solución Técnica (The Stack)
 
 * **Extracción y Lógica de Negocio:** **PostgreSQL**. Creación de queries complejas para consolidar ventas, productos y logística.
-    * 👉 *[Ver scripts de SQL aquí](./scripts)*
+    * 👉 *[Ver scripts de SQL aquí](sql)*
 * **Analítica Avanzada (Python):** * *Librerías:* `Seaborn`, `Matplotlib`, `Sklearn`.
 * **Visualización de Decisiones (Power BI):** * *KPI Logístico:* Cálculo del promedio de días por entrega.
     * *Segmentación:* Análisis dinámico del rendimiento por categoría.
