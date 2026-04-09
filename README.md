@@ -29,7 +29,7 @@ Para la toma de decisiones ejecutivas, consolidé los datos en un dashboard inte
 * **KPI Logístico (Días por Entrega):** * *Hallazgo:* El monitoreo en tiempo real del promedio de días por entrega permite detectar demoras logísticas por transportista o región antes de que afecten la satisfacción del cliente.
 
 ![Dashboard de Power BI - Vista General](img/Dias_promedio_del_envio.png)
-![Análisis de Ventas por Categoría](tu_imagen_ventas_categoria.png)
+![Análisis de Ventas por Categoría](img/Ventas_por_categoria.png)
 
 ---
 
