@@ -24,6 +24,7 @@
 
 ### Hallazgos por Categoría y Logística
   * **Ventas por Categoría:** Se identificó que el 70% de la facturación se concentra en 3 categorías clave. Este insight permite priorizar el stock y los esfuerzos de marketing.
+  
   * **KPI Logístico:** El promedio de días por entrega permite detectar cuellos de botella por región o transportista.
 
 
