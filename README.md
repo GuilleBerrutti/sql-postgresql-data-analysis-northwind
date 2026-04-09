@@ -15,7 +15,7 @@
     * *¿Qué nos dice?* Este análisis reveló patrones críticos de demanda temporal. Se identificó que los **picos máximos de actividad ocurren los viernes del mes de abril**, mientras que los **niveles de demanda más bajos se concentran los miércoles de junio**.
     * *Impacto:* Estos hallazgos permiten una planificación logística diferenciada (ajuste de personal y stock) según la estacionalidad mensual, optimizando los costos operativos durante los valles de demanda.
 
-    ![Mapa de Calor de Ventas](ruta/a/tu/imagen_heatmap.png)
+    ![Mapa de Calor de Ventas](img/mapa-de-calor.png)
 
 ---
 
