@@ -22,19 +22,21 @@
 
 ## 📊 Business Intelligence & Reporting (Power BI)
 
+### Hallazgos por Categoría y Logística
+  * **Ventas por Categoría:** Se identificó que el 70% de la facturación se concentra en 3 categorías clave. Este insight permite priorizar el stock y los esfuerzos de marketing.
+  * **KPI Logístico:** El promedio de días por entrega permite detectar cuellos de botella por región o transportista.
+
+
 <details>
-  <summary><b>Pulsá aquí para ver el Dashboard y Análisis de Ventas</b></summary>
+  <summary><b>Pulsá aquí para ver el Dashboard</b></summary>
 
   ### Dashboard Ejecutivo
   Este tablero consolida la operativa de Northwind, permitiendo una navegación fluida entre categorías y tiempos logísticos.
   
-  ![Dashboard General](img/Dias_promedio_del_envio.png)
+   ![Análisis de Ventas por Categoría](img/Ventas_por_categoria.png)
 
-  ### Hallazgos por Categoría y Logística
-  * **Ventas por Categoría:** Se identificó que el 70% de la facturación se concentra en 3 categorías clave. Este insight permite priorizar el stock y los esfuerzos de marketing.
-  * **KPI Logístico:** El promedio de días por entrega permite detectar cuellos de botella por región o transportista.
+   ![Dashboard General](img/Dias_promedio_del_envio.png)
 
-  ![Análisis de Ventas por Categoría](img/Ventas_por_categoria.png)
 </details>
 
 ---
