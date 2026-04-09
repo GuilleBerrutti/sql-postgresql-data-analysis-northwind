@@ -11,10 +11,11 @@
 
     ![Regresión Lineal de Ventas](img/regresión-lineal.png)
 
-* **Mapa de Calor (Heatmap): Densidad y Patrones de Pedidos**
-    * *¿Qué nos dice?* Visualización clara de la concentración de pedidos por día y hora. Reveló un "pico" crítico de actividad los martes a las 14hs, permitiendo optimizar campañas de marketing y la logística de preparación.
+* **Mapa de Calor (Heatmap): Estacionalidad y Densidad de Pedidos**
+    * *¿Qué nos dice?* Este análisis reveló patrones críticos de demanda temporal. Se identificó que los **picos máximos de actividad ocurren los viernes del mes de abril**, mientras que los **niveles de demanda más bajos se concentran los miércoles de junio**.
+    * *Impacto:* Estos hallazgos permiten una planificación logística diferenciada (ajuste de personal y stock) según la estacionalidad mensual, optimizando los costos operativos durante los valles de demanda.
 
-    ![Mapa de Calor de Ventas](img/mapa-de-calor.png)
+    ![Mapa de Calor de Ventas](ruta/a/tu/imagen_heatmap.png)
 
 ---
 
