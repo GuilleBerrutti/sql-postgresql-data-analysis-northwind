@@ -9,7 +9,7 @@
 * **Regresión Lineal: Proyección de Crecimiento de Ventas**
     * *¿Qué nos dice?* El modelo estadístico nos permite proyectar la tendencia de ingresos mensuales con un 85% de precisión, facilitando la planificación financiera y la detección de desvíos estacionales.
 
-    ![Regresión Lineal de Ventas](ruta/a/tu/imagen_regresion.png)
+    ![Regresión Lineal de Ventas](img/regresión-lineal.png)
 
 * **Mapa de Calor (Heatmap): Densidad y Patrones de Pedidos**
     * *¿Qué nos dice?* Visualización clara de la concentración de pedidos por día y hora. Reveló un "pico" crítico de actividad los martes a las 14hs, permitiendo optimizar campañas de marketing y la logística de preparación.
