@@ -1,117 +1,162 @@
-# 🛒 Análisis Estratégico de E-commerce (Northwind)
+# 🛒 Análisis de Ventas y Logística en E-commerce
+
+## 📌 Descripción General
+Este proyecto analiza el rendimiento de ventas y la eficiencia logística en un entorno de e-commerce para identificar oportunidades de crecimiento, optimización operativa y mejora de la experiencia del cliente.
+
+El enfoque integra datos comerciales y logísticos para generar **insights accionables** orientados a la toma de decisiones.
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🎯 Problema de Negocio
+Las empresas de e-commerce deben escalar ventas sin degradar la operación logística.
 
-Analizar el comportamiento de ventas y operaciones logísticas en un entorno de e-commerce para **identificar patrones de consumo, optimizar la distribución y proyectar ingresos futuros**.
-
-Este proyecto integra SQL, Python y Power BI para transformar datos transaccionales en decisiones de negocio.
-
----
-
-## 🧠 Problema de Negocio
-
-Las empresas de e-commerce enfrentan múltiples desafíos:
-
-- Falta de visibilidad sobre patrones de demanda  
-- Dificultad para anticipar ventas futuras  
-- Ineficiencias en tiempos de entrega y logística  
-
-👉 **Pregunta clave del análisis:**
-
-**¿Cómo optimizar la estrategia comercial y logística a partir del análisis de datos históricos de ventas?**
+**Desafíos principales:**
+- Retrasos de entrega que afectan la satisfacción del cliente  
+- Rendimiento desigual entre categorías y mercados  
+- Baja visibilidad de ineficiencias operativas  
 
 ---
 
-## 📊 Dashboard Interactivo
+## ⚡ Strategic Impact (Executive Summary)
 
-🔗 **Archivo Power BI:** 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/tree/main/dashboard)*
+**Hallazgos clave**
+- Un conjunto reducido de categorías concentra la mayor parte de los ingresos (efecto Pareto).  
+- Las ventas presentan una **tendencia creciente** con variabilidad estacional.  
+- Existen **ineficiencias logísticas** en ciertos países (mayores tiempos de entrega).  
 
-<details>
-  <summary><b>Ver Previsualización: Dias promedio del envío</b></summary>
+**Acciones recomendadas**
+- Priorizar inversión (marketing + stock) en categorías líderes.  
+- Planificar inventario y capacidad en función de la demanda proyectada.  
+- Optimizar la logística en mercados con mayores tiempos de envío.  
 
-  ![Días promedio de envío](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png)
-  </details>
-
----
-
-## 📊 Metodología
-
-El análisis se desarrolló en tres etapas:
-
-1. **Extracción y Modelado (SQL - PostgreSQL):** Consolidación de datos transaccionales.
-2. **Análisis Avanzado (Python):** Modelado de tendencias y patrones temporales.
-3. **Visualización (Power BI):** Seguimiento de KPIs comerciales y logísticos.
-
----
-
-## 💡 Key Insights (Strategic Impact)
-
-- **Eficiencia Logística:** Variaciones significativas en los tiempos de entrega por región que impactan la satisfacción del cliente.
-  - 🚀 *Acción propuesta:* Renegociar SLAs con transportistas en zonas críticas.
-
-- **Proyección de Ventas:** Uso de modelos predictivos para alinear compras y presupuesto.
-  - 🚀 *Acción propuesta:* Ajustar el *stock safety level* basándose en la estacionalidad detectada.
+**Impacto esperado**
+- ↑ Ingresos al focalizar en drivers de revenue  
+- ↓ Tiempos de entrega y mejora de la experiencia del cliente  
+- ↑ Eficiencia operativa y toma de decisiones basada en datos  
 
 ---
 
 ## 📊 Visualizaciones Destacadas
 
-### 🛒 Ventas por Categoría
+### 🛒 Ventas por Categoría (Drivers de Revenue)
 
-![Ventas por Categoría](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png)
+![Ventas por Categoría](images/ventas_categoria.png)
 
-**Insight:** Un número reducido de categorías concentra la mayor parte de los ingresos totales.
+**Insight**  
+Un número reducido de categorías concentra la mayor parte de los ingresos.
 
-**Interpretación:** El negocio presenta una distribución tipo Pareto, donde pocas categorías son responsables del rendimiento principal.
+**Interpretación**  
+Distribución tipo Pareto: pocas categorías explican la mayor parte del rendimiento.
 
-**Decisión:** Priorizar inversión en marketing, stock y optimización en las categorías líderes.
+**Decisión**  
+Priorizar marketing, pricing y disponibilidad de stock en categorías líderes.
 
 ---
 
 ### 📈 Tendencia y Predicción de Ventas
 
-![Tendencia de Ventas](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/regresi%C3%B3n-lineal.png)
+![Tendencia de Ventas](images/tendencia_ventas.png)
 
-**Insight:** Las ventas muestran una tendencia creciente con proyección positiva en los próximos meses.
+**Insight**  
+Tendencia de crecimiento con proyección positiva a corto plazo.
 
-**Interpretación:** El crecimiento sostenido sugiere expansión del negocio, aunque con cierta variabilidad estacional.
+**Interpretación**  
+Expansión del negocio con variabilidad que sugiere efectos estacionales.
 
-**Decisión:** Planificar capacidad operativa e inventario con antelación para acompañar la demanda futura.
-
----
-
-### 🔥 Mapa de Calor (Estacionalidad de Pedidos)
-
-![Mapa de Calor](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/mapa-de-calor.png)
-
-**Insight:** La demanda presenta picos críticos los **viernes de abril** y valles pronunciados los **miércoles de junio**.
-
-**Interpretación:** Existe una correlación directa entre los ciclos de pago y la actividad de compra, dejando capacidad ociosa en periodos valle.
-
-**Decisión:** Implementar campañas de *Flash Sales* específicamente los miércoles de junio para suavizar la curva de demanda y mejorar el ticket promedio.
+**Decisión**  
+Ajustar inventario y capacidad operativa para sostener la demanda proyectada.
 
 ---
 
-## 📈 Conclusión
+## 🔎 Análisis
 
-El análisis demuestra que la integración de datos comerciales y logísticos permite optimizar tanto la estrategia de ventas como la operación. La clave del éxito radica en convertir los datos históricos en **predicciones accionables**.
+### 1. Limpieza y Preparación de Datos
+- Tratamiento de valores nulos  
+- Corrección de tipos de datos  
+- Feature engineering (ej.: cálculo de tiempo de entrega)  
+
+### 2. Análisis Exploratorio (EDA)
+- Distribución de ventas  
+- Rendimiento por producto y categoría  
+- Tendencias temporales  
+
+### 3. Análisis Logístico
+- Evaluación de tiempos de envío  
+- Identificación de retrasos  
+- Comparación por país/mercado  
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 📊 Insights Detallados
 
-- **PostgreSQL** → Extracción y modelado de datos  
-- **Python (Pandas, Matplotlib, Seaborn, Scikit-learn)** → Análisis y modelado  
-- **Power BI** → Visualización y dashboards  
+### 🔥 Estacionalidad de ventas (mes × día)
+
+![Heatmap Estacionalidad](images/estacionalidad_heatmap.png)
+
+**Insight**  
+Las ventas varían significativamente según el mes y el día de la semana.
+
+**Interpretación**  
+Patrones de comportamiento del cliente asociados a hábitos de compra.
+
+**Recomendación**  
+Alinear campañas y promociones a los picos de demanda.
+
+**Impacto**  
+Mejora del ROI de marketing y aumento de conversión.
 
 ---
 
-## 📂 Estructura del Proyecto
+### 🚚 Tiempos de envío por país
 
-### SQL (Lógica de Negocio)
-- [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql)  
-- [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql)  
-- [💸 Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql)  
-- [🐍 Vistas para Python](./sql/04_vistas_para_python.sql)
+![Días Promedio de Envío](images/dias_envio_pais.png)
+
+**Insight**  
+Diferencias relevantes en tiempos de entrega entre países.
+
+**Interpretación**  
+Ineficiencias logísticas o limitaciones de infraestructura en ciertos mercados.
+
+**Recomendación**  
+Optimizar rutas y partners logísticos en países con mayores demoras.
+
+**Impacto**  
+Reducción de tiempos de entrega y mejora de la satisfacción del cliente.
+
+---
+
+## 🚀 Recomendaciones de Negocio
+
+- **Foco en categorías clave**  
+  Asignar recursos a los principales generadores de ingresos.  
+
+- **Optimización logística**  
+  Reducir cuellos de botella en mercados críticos.  
+
+- **Gestión basada en estacionalidad**  
+  Sincronizar inventario y campañas con la demanda.  
+
+- **KPIs integrados**  
+  Incorporar métricas logísticas en la toma de decisiones comerciales.  
+
+---
+
+## 💼 Impacto en el Negocio (Extendido)
+
+La implementación de estas recomendaciones permitiría:
+
+- Incrementar ingresos mediante foco estratégico  
+- Reducir tiempos de entrega  
+- Mejorar la retención y satisfacción del cliente  
+- Optimizar la eficiencia operativa  
+
+---
+
+## 🧰 Herramientas Utilizadas
+- SQL → Extracción y transformación de datos  
+- Python (Pandas, Matplotlib, Seaborn) → Análisis y visualización  
+- Jupyter Notebook → Flujo de trabajo  
+
+---
+
+## 📁 Estructura del Proyecto
