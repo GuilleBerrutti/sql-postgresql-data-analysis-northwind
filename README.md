@@ -1,117 +1,98 @@
-# 🛒 Análisis Estratégico de E-commerce (Northwind)
+# 🛒 E-commerce Sales & Logistics Analysis
+
+## 📌 Overview
+This project analyzes sales performance and logistics efficiency in an e-commerce business to identify opportunities for revenue growth, operational optimization, and improved customer experience.
+
+The analysis integrates commercial and operational data to move beyond descriptive analytics and deliver actionable business insights.
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🎯 Business Problem
+E-commerce companies often face a trade-off between increasing sales and maintaining efficient logistics operations.
 
-Analizar el comportamiento de ventas y operaciones logísticas en un entorno de e-commerce para **identificar patrones de consumo, optimizar la distribución y proyectar ingresos futuros**.
+Key challenges include:
+- Delivery delays impacting customer satisfaction
+- Uneven sales performance across products and regions
+- Lack of visibility into operational inefficiencies
 
-Este proyecto integra SQL, Python y Power BI para transformar datos transaccionales en decisiones de negocio.
-
----
-
-## 🧠 Problema de Negocio
-
-Las empresas de e-commerce enfrentan múltiples desafíos:
-
-- Falta de visibilidad sobre patrones de demanda  
-- Dificultad para anticipar ventas futuras  
-- Ineficiencias en tiempos de entrega y logística  
-
-👉 **Pregunta clave del análisis:**
-
-**¿Cómo optimizar la estrategia comercial y logística a partir del análisis de datos históricos de ventas?**
+👉 The goal of this project is to identify the key drivers of sales and logistics performance, and propose data-driven recommendations.
 
 ---
 
-## 📊 Dashboard Interactivo
+## ❓ Key Questions
+This analysis is designed to answer:
 
-🔗 **Archivo Power BI:** 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/tree/main/dashboard)*
-
-<details>
-  <summary><b>Ver Dashboard (Previsualización)</b></summary>
-
-  ![Ventas por Categoría](img/Ventas_por_categoria.png)
-  ![Días promedio de envío](img/Dias_promedio_del_envio.png)
-
-</details>
+- Which products and categories generate the most revenue?
+- Are there patterns or trends in sales over time?
+- How efficient is the delivery process?
+- Where do delays occur and how significant are they?
+- Is there a relationship between logistics performance and sales?
 
 ---
 
-## 📊 Metodología
-
-El análisis se desarrolló en tres etapas:
-
-### 1. Extracción y Modelado (SQL - PostgreSQL)
-- Consolidación de datos de ventas, productos y envíos  
-- Cálculo de métricas comerciales y logísticas  
-- Creación de vistas optimizadas para análisis  
-
-### 2. Análisis Avanzado (Python)
-- Modelado de tendencias mediante regresión lineal  
-- Identificación de patrones temporales con mapas de calor  
-
-### 3. Visualización (Power BI)
-- Construcción de dashboard interactivo  
-- Seguimiento de KPIs comerciales y logísticos  
+## 🧰 Tools & Technologies
+- SQL → Data extraction and transformation
+- Python (Pandas, Matplotlib/Seaborn) → Data analysis and visualization
+- Jupyter Notebook → Analysis workflow
 
 ---
 
-## 💡 Key Insights (Strategic Impact)
+## 🔎 Analysis Process
 
-- **Optimización del Inventario (Estacionalidad):** Detectamos una alta volatilidad semanal, con picos críticos los **viernes de abril** y valles los **miércoles de junio**.
-  - 🚀 *Acción propuesta:* Ajustar el *stock safety level* los jueves para evitar quiebres durante el viernes y lanzar campañas de *Flash Sales* los miércoles para maximizar la capacidad operativa.
+### 1. Data Cleaning & Preparation
+- Handling missing values
+- Data type corrections
+- Feature engineering (e.g., delivery time calculation)
 
-- **Foco en el Margen (Análisis de Pareto):** El 70% de la facturación se concentra en 3 categorías principales.
-  - 🚀 *Acción propuesta:* Priorizar la inversión en publicidad y esfuerzo de venta hacia estas categorías "core", evaluando la rentabilidad de la "larga cola" de productos.
+### 2. Exploratory Data Analysis (EDA)
+- Sales distribution analysis
+- Product and category performance
+- Temporal trends
 
-- **Eficiencia Logística:** Se identificaron variaciones significativas en los tiempos de entrega por región.
-  - 🚀 *Acción propuesta:* Renegociar SLAs (*Service Level Agreements*) con transportistas en zonas con retrasos recurrentes para mejorar el NPS (*Net Profit Score*) y la satisfacción del cliente.
-
-- **Proyección de Ventas:** El modelo de regresión permite anticipar ingresos y planificar el flujo de caja.
-  - 🚀 *Acción propuesta:* Integrar este modelo en la planificación financiera mensual para alinear compras y presupuesto.
-
----
-
-## 🔬 Análisis Avanzado con Python
-
-### 📈 Regresión Lineal (Proyección de Ventas)
-Permite estimar la evolución de ingresos a partir del histórico de ventas, facilitando la planificación financiera.
-
-![Regresión Lineal de Ventas](img/regresión-lineal.png)
+### 3. Logistics Analysis
+- Delivery time evaluation
+- Identification of delays
+- Regional/logistical performance patterns
 
 ---
 
-### 🔥 Mapa de Calor (Estacionalidad de Pedidos)
-Identificación de patrones de demanda por día y mes:
+## 📊 Key Insights
 
-- **Mayor actividad:** viernes de abril  
-- **Menor actividad:** miércoles de junio  
-
-👉 Esto permite ajustar operaciones según picos y valles de demanda.
-
-![Mapa de Calor](img/mapa-de-calor.png)
+- A small group of products/categories drives a significant portion of total revenue (Pareto effect).
+- Sales show temporal patterns, suggesting opportunities for demand forecasting and inventory planning.
+- Delivery times are inconsistent, with certain segments showing systematic delays.
+- Logistics inefficiencies may negatively impact customer experience and repeat purchases.
 
 ---
 
-## 📈 Conclusión
+## 🚀 Business Recommendations
 
-El análisis demuestra que la integración de datos comerciales y logísticos permite optimizar tanto la estrategia de ventas como la operación. La clave del éxito radica en convertir los datos históricos en **predicciones accionables**.
+Based on the analysis:
+
+- **Optimize high-performing categories**  
+  Focus marketing and inventory efforts on top revenue-generating products.
+
+- **Improve logistics in critical areas**  
+  Identify and address bottlenecks causing delivery delays.
+
+- **Leverage seasonality trends**  
+  Align stock and campaigns with high-demand periods.
+
+- **Monitor delivery performance as a KPI**  
+  Integrate logistics metrics into decision-making processes.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 💼 Business Impact
 
-- **PostgreSQL** → Extracción y modelado de datos  
-- **Python (Pandas, Matplotlib, Seaborn, Scikit-learn)** → Análisis y modelado  
-- **Power BI** → Visualización y dashboards  
+If implemented, these insights could:
+
+- Increase revenue by prioritizing high-performing products
+- Reduce delivery delays and improve customer satisfaction
+- Enhance operational efficiency in logistics
+- Support data-driven strategic decisions
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📁 Project Structure
 
-### SQL (Lógica de Negocio)
-- [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql)  
-- [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql)  
-- [💸 Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql)  
-- [🐍 Vistas para Python](./sql/04_vistas_para_python.sql)
