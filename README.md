@@ -42,29 +42,11 @@ Las empresas de e-commerce deben escalar ventas sin degradar la operación logí
 
 ![Ventas por Categoría](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png)
 
-**Insight**  
-Un número reducido de categorías concentra la mayor parte de los ingresos.
-
-**Interpretación**  
-Distribución tipo Pareto: pocas categorías explican la mayor parte del rendimiento.
-
-**Decisión**  
-Priorizar marketing, pricing y disponibilidad de stock en categorías líderes.
-
 ---
 
 ### 📈 Tendencia y Predicción de Ventas
 
 ![Tendencia de Ventas](images/tendencia_ventas.png)
-
-**Insight**  
-Tendencia de crecimiento con proyección positiva a corto plazo.
-
-**Interpretación**  
-Expansión del negocio con variabilidad que sugiere efectos estacionales.
-
-**Decisión**  
-Ajustar inventario y capacidad operativa para sostener la demanda proyectada.
 
 ---
 
