@@ -36,6 +36,27 @@ Las empresas de e-commerce deben escalar ventas sin degradar la operación logí
 
 ---
 
+## ⚡ Impacto Estratégico (Resumen Ejecutivo)
+
+El análisis revela que el crecimiento del negocio no está siendo acompañado por una eficiencia logística consistente, generando oportunidades claras de optimización.
+
+### Hallazgos clave
+- Alta dependencia de pocas categorías (≈[X%] del revenue concentrado).
+- Crecimiento sostenido en ventas (≈[X%]), con patrones estacionales definidos.
+- Ineficiencias logísticas en mercados específicos (+[X%] en tiempos de entrega vs promedio).
+
+### Acciones recomendadas
+- Priorizar categorías estratégicas para maximizar ingresos.
+- Planificar operaciones según demanda proyectada.
+- Corregir cuellos de botella logísticos en mercados críticos.
+
+### Impacto esperado
+- Mayor rentabilidad mediante foco estratégico  
+- Reducción de fricción en la experiencia del cliente  
+- Mejora en eficiencia operativa
+
+---
+
 ## 📊 Visualizaciones Destacadas
 
  🛒 Ventas por Categoría
