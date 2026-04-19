@@ -29,7 +29,7 @@ Las empresas de e-commerce enfrentan múltiples desafíos:
 🔗 **Archivo Power BI:** 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/tree/main/dashboard)*
 
 <details>
-  <summary><b>Ver Previsualización del Dashboard</b></summary>
+  <summary><b>Ver Previsualización Dias promedio del envío</b></summary>
 
   ![Días promedio de envío](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png)
   </details>
